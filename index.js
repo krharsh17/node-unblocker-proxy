@@ -5,7 +5,7 @@ const Unblocker = require("unblocker");
 // create an express app instance
 const app = express();
 // create a new Unblocker instance
-const unblocker = new Unblocker({ prefix: "/proxy/" });
+const unblocker = new Unblocker();
 
 // set the port
 const port = 3000;
